@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /* font-family: 'Open Sans', sans-serif; */
 
 .banner-section{
@@ -32,18 +35,135 @@
     padding: 20px 0;
 }
 .banner-btn{
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     line-height: 20px;
+    color: #fff;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
     background: #E55473;
+
 }
 .banner-image img{
     width: auto;
     height: 600px;
     transform: translateY(6px);
+}
+
+/* Our Featured Flowers-section */
+
+.featured-section{
+    background-color: #fff;
+    padding: 0 100px;
+}
+.featured-heading{
+    text-align: center;
+    padding: 80px 0;
+}
+.featured-titel{
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+}
+.featured-discription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.featured-flowers{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+.flowers h5{
+    font-size: 20px;
+    text-align: center;
+    color: #272727;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration-line: underline;
+    padding: 20px 0;
+}
+
+.all-flower{
+    height: 440px;
+    width: 360px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.tulip-flower img{
+    width: 270px;
+    padding:67px 45px 0 45px;
+}
+.artificial-flower img{
+    width: 270px;
+    padding:130px 45px 0 45px;
+}
+.yellow-tulip img{
+    width: 270px;
+    padding:35px 45px 0 45px;
+}
+/* .offer-secetion */
+
+.offer-secetion{    
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 60px;
+}   
+
+.offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.deal-contant{
+    text-align: center;
+}
+.deal-off{
+    color:  red;
+}
+/* .deal-titel{
+    font-size: 30px;
+    color: #272727;
+    font-weight: 800;
+} */
+.deal-discription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 620px;
+    padding: 20px 0;
+}
+
+/* Instagram-Section */
+.instagram-section{
+    background-color: #fff;
+    padding: 80px 100px;
+}
+.insta-ditels{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 0 20px 0;
+    max-width: 620px;
+    text-align: center;
+    display: inline-block;
+}
+.insta-gallary{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 80px 0 ;
+}
+.insta-pic img{
+    width: 270px;
+    height: auto;
 }
