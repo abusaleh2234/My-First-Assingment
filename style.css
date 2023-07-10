@@ -127,7 +127,7 @@ body{
     text-align: center;
 }
 .deal-off{
-    color:  red;
+    color: #E55473;
 }
 /* .deal-titel{
     font-size: 30px;
@@ -161,9 +161,81 @@ body{
 .insta-gallary{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 80px 0 ;
+    padding-top: 30px;
 }
 .insta-pic img{
     width: 270px;
     height: auto;
 }
+/* Subscribe-section */
+.subscribe-section{
+    background-color: #fff;
+    padding:0  100px  80px 100px;
+}
+
+.latest-deals{
+    background-image: url('./Flower-image/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.subscribe-title{
+    font-size: 30px;
+    color: #272727;
+    font-weight: 800;
+    text-align: center;
+    padding: 100px 0 5px 0;
+}
+.subscribe-ditels{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+.subscribe input{
+    padding: 12px 400px 12px 12px;
+    margin-right: 5px;
+}
+.subscribe input .placeholder{
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+}
+.subscribe{
+    text-align: center;
+    padding: 30px 0 100px 0;
+}
+
+
+/* footer-section */
+
+.footer-section{
+    background: #111010;
+    padding: 100px 0;
+}
+.footer-title{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-ditels{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 28px 0 30px 0;
+}
+.socet-bar{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.40); 
+    text-align: center;
+    font-weight: 400;
+}
+
+
