@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* font-family: 'Open Sans', sans-serif; */
+
+.banner-section{
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+.banner-container{
+    padding: 50px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-contant{
+    display: flex;
+    align-items: center;
+}
+.banner-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: #272727;
+    width: 540px;
+}
+.banner-detiels{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 575px;
+    padding: 20px 0;
+}
+.banner-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background: #E55473;
+}
+.banner-image img{
+    width: auto;
+    height: 600px;
+    transform: translateY(6px);
+}
