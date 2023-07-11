@@ -6,7 +6,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* font-family: 'Open Sans', sans-serif; */
-
 .banner-section{
     background-color: rgba(229, 84, 115, 0.10);;
 }
@@ -44,23 +43,60 @@ body{
     border: none;
     border-radius: 5px;
     background: #E55473;
-
 }
 .banner-image img{
     width: auto;
     height: 600px;
     transform: translateY(6px);
 }
-
+/* bonus-section */
+.bonus-section{
+    background-color: #fff;
+    padding: 80px 100px 30px 100px;
+}
+.birthday-gift, .wedding-day{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.wedding-day{
+    padding-top: 10px;
+}
+.birthday-gift-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    padding: 10px 0 5px 0;
+}
+.birthday-gift-ditels{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: auto;
+}
+#birthday-btn{
+ margin: 20px 0;
+}
+.wellcome-title{
+    color: rgba(12, 12, 12, 0.6);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+#birthday-pic{
+    width: 550px;
+    border-radius: 4px;
+}
 /* Our Featured Flowers-section */
-
 .featured-section{
     background-color: #fff;
-    padding: 0 100px;
+    padding: 0 100px 60px 100px;
 }
 .featured-heading{
     text-align: center;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .featured-titel{
     font-size: 30px;
@@ -76,7 +112,6 @@ body{
     max-width: 620px;
     margin: 0 auto;
 }
-
 .featured-flowers{
     display: flex;
     column-gap: 20px;
@@ -91,7 +126,6 @@ body{
     text-decoration-line: underline;
     padding: 20px 0;
 }
-
 .all-flower{
     height: 440px;
     width: 360px;
@@ -102,6 +136,12 @@ body{
     width: 270px;
     padding:67px 45px 0 45px;
 }
+#flower-artificial{
+    background: rgba(5, 151, 160, 0.15);
+}
+#flower-yellow{
+    background: rgba(71, 125, 17, 0.15);
+}
 .artificial-flower img{
     width: 270px;
     padding:130px 45px 0 45px;
@@ -111,7 +151,6 @@ body{
     padding:35px 45px 0 45px;
 }
 /* .offer-secetion */
-
 .offer-secetion{    
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -194,8 +233,10 @@ body{
     line-height: 30px;
 }
 .subscribe input{
-    padding: 12px 400px 12px 12px;
+    padding: 15px 400px 15px 12px;
     margin-right: 5px;
+    border: none;
+    border-radius: 5px;
 }
 .subscribe input .placeholder{
     font-size: 16px;
